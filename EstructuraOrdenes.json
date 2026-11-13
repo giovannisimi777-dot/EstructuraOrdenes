@@ -1,0 +1,35 @@
+{
+  "empresa": "Logis Travel",
+  "ordenes": [
+    {
+      "idOrden": 1001,
+      "cliente": "Juan Perez",
+      "destino": "Santiago",
+      "fecha": "2026-11-10",
+      "estado": "Pendiente",
+      "productos": [
+        {
+          "nombre": "Servicio de transporte",
+          "cantidad": 1,
+          "precio": 45000
+        }
+      ],
+      "total": 45000
+    },
+    {
+      "idOrden": 1002,
+      "cliente": "Maria Gonzalez",
+      "destino": "Valparaiso",
+      "fecha": "2026-11-10",
+      "estado": "En proceso",
+      "productos": [
+        {
+          "nombre": "Servicio de despacho",
+          "cantidad": 2,
+          "precio": 15000
+        }
+      ],
+      "total": 30000
+    }
+  ]
+}
